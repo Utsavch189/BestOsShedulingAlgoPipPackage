@@ -1,14 +1,13 @@
 
 class BestShedulingAlgo:
 
-	lists=[]
 
 	def __init__(self,size):
 		self.size=size
+		self.processes=[None]*size
 		print(f"{size} length size is initialized")
 
-	def merge(dict1,dict2):
-
+	def Merge(dict1,dict2):
 		return {**dict1,**dict2}
 
 	def taking_input(self):
@@ -30,7 +29,7 @@ class BestShedulingAlgo:
 				"BT":int(bt),
 				"P":int(p)
 			}
-			lists.append(merge(inpt,constant_dict))
+			self.processes.append(self.Merge(inpt,constant_dict))
 		return lists	
 
 
