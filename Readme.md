@@ -1,6 +1,6 @@
 ## Installation
 
-    `pip install os_shedulingAlgo_utsav`
+    `pip install osalgopackage-utsav`
 
 ## USE
 
